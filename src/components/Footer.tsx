@@ -20,20 +20,20 @@ export default function Footer() {
           <div>
             <h4 className="text-xs font-bold uppercase tracking-widest opacity-50 mb-6">Navigation</h4>
             <ul className="flex flex-col gap-4 text-sm">
-              <li><a href="#" className="hover:text-synque-accent transition-colors">Portfolio</a></li>
-              <li><a href="#" className="hover:text-synque-accent transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-synque-accent transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-synque-accent transition-colors">Contact</a></li>
+              <li><a href="#companies" className="hover:text-synque-accent transition-colors">Portfolio</a></li>
+              <li><a href="#about" className="hover:text-synque-accent transition-colors">About Us</a></li>
+              <li><a href="#ventures" className="hover:text-synque-accent transition-colors">Ventures</a></li>
+              <li><a href="#contact" className="hover:text-synque-accent transition-colors">Contact</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-xs font-bold uppercase tracking-widest opacity-50 mb-6">Connect</h4>
             <ul className="flex flex-col gap-4 text-sm">
-              <li><a href="#" className="hover:text-synque-accent transition-colors">LinkedIn</a></li>
-              <li><a href="#" className="hover:text-synque-accent transition-colors">Twitter</a></li>
-              <li><a href="#" className="hover:text-synque-accent transition-colors">Instagram</a></li>
-              <li><a href="#" className="hover:text-synque-accent transition-colors">Medium</a></li>
+              <li><a href="https://linkedin.com/company/synquegroup" target="_blank" rel="noopener noreferrer" className="hover:text-synque-accent transition-colors">LinkedIn</a></li>
+              <li><a href="https://twitter.com/synquegroup" target="_blank" rel="noopener noreferrer" className="hover:text-synque-accent transition-colors">Twitter</a></li>
+              <li><a href="https://instagram.com/synquegroup" target="_blank" rel="noopener noreferrer" className="hover:text-synque-accent transition-colors">Instagram</a></li>
+              <li><a href="https://medium.com/@synquegroup" target="_blank" rel="noopener noreferrer" className="hover:text-synque-accent transition-colors">Medium</a></li>
             </ul>
           </div>
         </div>
@@ -41,9 +41,9 @@ export default function Footer() {
         <div className="pt-12 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6 text-xs opacity-50">
           <p>© 2026 Synque Group Holdings. All rights reserved.</p>
           <div className="flex gap-8">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-            <a href="#">Cookie Policy</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms-of-service">Terms of Service</a>
+            <a href="/cookie-policy">Cookie Policy</a>
           </div>
         </div>
       </div>

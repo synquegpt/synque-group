@@ -48,9 +48,9 @@ export default function Hero() {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl relative">
-              <img 
-                src="https://picsum.photos/seed/synque-hero/1200/1500" 
-                alt="Synque Group" 
+              <img
+                src="https://picsum.photos/seed/synque-hero/1200/1500"
+                alt="Synque Group global innovation ecosystem — collaborative workspace representing technology, creativity, and capital"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
